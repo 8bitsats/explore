@@ -1,0 +1,30 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+#inscriptionInput {
+    margin: 10px;
+    padding: 8px;
+}
+
+#fetchButton {
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+#contentDisplay {
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    max-width: 90%;
+    overflow: auto;
+}
