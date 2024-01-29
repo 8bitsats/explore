@@ -1,6 +1,6 @@
 document.getElementById('fetchButton').addEventListener('click', function() {
     const inscription = document.getElementById('inscriptionInput').value;
-    const url = `https://ordinals.com/content/${inscription}`;
+    const url = `https://wonky-ord.dogeord.io/content/${inscription}`;
     
     fetch(url)
         .then(response => {
